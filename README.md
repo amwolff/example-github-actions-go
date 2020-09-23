@@ -63,9 +63,9 @@ jobs:
 
 This workflow
 
--[x] uses new GitHub's default branch name;
--[x] uses caching;
--[x] uses [golangci-lint](https://golangci-lint.run/) with default settings and `goimports` enabled;
--[x] is easy to use and extend!
+- [x] uses new GitHub's default branch name;
+- [x] uses caching;
+- [x] uses [golangci-lint](https://golangci-lint.run/) with default settings and `goimports` enabled;
+- [x] is easy to use and extend!
 
 You can add more Go versions and operating systems into the [strategy matrix](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstrategymatrix), modify Go compiler flags and play around with `golangci-lint` linters.
