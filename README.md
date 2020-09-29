@@ -5,7 +5,7 @@ Inspired by the awesome [GitHub Actions for Go](https://github.com/mvdan/github-
 ## The workflow
 
 ```yaml
-$ cat .github/workflows/go.yml
+$ cat .github/workflows/ci.yml
 name: CI
 
 on:
